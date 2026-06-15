@@ -157,3 +157,18 @@ height:100%;
 z-index:-1;
 pointer-events:none;
 }
+#space{
+position:fixed !important;
+top:0;
+left:0;
+width:100vw;
+height:100vh;
+z-index:-1;
+pointer-events:none;
+display:block;
+}
+
+body{
+background:#050816;
+overflow-x:hidden;
+}
