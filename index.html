@@ -1,52 +1,77 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+
+<html lang="en">
 
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Arsam | Developer</title>
+<title>ARSAM | Developer</title>
 
-<meta name="description"
-content="Arsam Personal Portfolio">
+<meta name="description" content="Arsam Portfolio">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800;900&family=Vazirmatn:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="style.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700;900&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
-<div id="particles"></div>
+<div id="loader">
+    <div class="loader-logo">ARSAM</div>
+</div>
+
+<div id="stars"></div>
 
 <header>
 
 <nav>
 
-<div class="logo">ARSAM</div>
+<div class="logo">
+ARSAM
+</div>
 
 <ul>
-<li><a href="#about">درباره من</a></li>
-<li><a href="#skills">مهارت‌ها</a></li>
-<li><a href="#projects">پروژه‌ها</a></li>
-<li><a href="#contact">ارتباط</a></li>
+
+<li>
+<a href="#about">About</a>
+</li>
+
+<li>
+<a href="#skills">Skills</a>
+</li>
+
+<li>
+<a href="#projects">Projects</a>
+</li>
+
+<li>
+<a href="#contact">Contact</a>
+</li>
+
 </ul>
 
 </nav>
 
 <section class="hero">
 
-<h1>ARSAM</h1>
+<h1>
+ARSAM
+</h1>
 
 <h2 id="typing"></h2>
 
 <p>
-برنامه‌نویس، سازنده پروژه‌ها و علاقه‌مند به فناوری
+Developer • Creator • Future Pilot
 </p>
 
 <a href="#projects" class="btn">
-مشاهده پروژه‌ها
+Explore Projects
 </a>
 
 </section>
@@ -55,26 +80,54 @@ content="Arsam Personal Portfolio">
 
 <section id="about">
 
-<h2>درباره من</h2>
+<div class="container">
+
+<h2 class="section-title">
+About Me
+</h2>
+
+<div class="glass">
 
 <p>
-من ارسام هستم و به برنامه‌نویسی، بازی‌سازی و ساخت پروژه‌های خلاقانه علاقه دارم.
+
+I love programming, technology, game development,
+creative projects and building cool things on the internet.
+
 </p>
+
+</div>
+
+</div>
 
 </section>
 
 <section id="skills">
 
-<h2>مهارت‌ها</h2>
+<div class="container">
 
-<div class="grid">
+<h2 class="section-title">
+Skills
+</h2>
 
-<div class="card">HTML</div>
-<div class="card">CSS</div>
-<div class="card">JavaScript</div>
-<div class="card">Node.js</div>
-<div class="card">Python</div>
-<div class="card">Git</div>
+<div class="skills-grid">
+
+<div class="skill-card">HTML</div>
+
+<div class="skill-card">CSS</div>
+
+<div class="skill-card">JavaScript</div>
+
+<div class="skill-card">Node.js</div>
+
+<div class="skill-card">Python</div>
+
+<div class="skill-card">Git</div>
+
+<div class="skill-card">Linux</div>
+
+<div class="skill-card">Roblox Studio</div>
+
+</div>
 
 </div>
 
@@ -82,59 +135,133 @@ content="Arsam Personal Portfolio">
 
 <section id="projects">
 
-<h2>پروژه‌ها</h2>
+<div class="container">
 
-<div class="projects">
+<h2 class="section-title">
+Projects
+</h2>
 
-<div class="project">
-<h3>OpenFront Clone</h3>
-<p>بازی استراتژیک آنلاین</p>
+<div class="projects-grid">
+
+<div class="project-card">
+
+<h3>
+OpenFront Clone
+</h3>
+
+<p>
+Strategy Game Project
+</p>
+
 </div>
 
-<div class="project">
-<h3>Minecraft Tool</h3>
-<p>ابزارهای مرتبط با ماینکرفت</p>
+<div class="project-card">
+
+<h3>
+Minecraft Tools
+</h3>
+
+<p>
+Minecraft Related Utilities
+</p>
+
 </div>
 
-<div class="project">
-<h3>Portfolio</h3>
-<p>سایت شخصی حرفه‌ای</p>
+<div class="project-card">
+
+<h3>
+Portfolio Website
+</h3>
+
+<p>
+Personal Website Project
+</p>
+
+</div>
+
 </div>
 
 </div>
 
 </section>
 
-<section class="stats">
+<section id="stats">
 
-<div>
-<h3 class="counter" data-target="50">0</h3>
-<p>پروژه</p>
+<div class="container">
+
+<h2 class="section-title">
+Statistics
+</h2>
+
+<div class="stats-grid">
+
+<div class="stat-card">
+
+<h3 class="counter" data-target="50">
+0
+</h3>
+
+<p>
+Projects
+</p>
+
 </div>
 
-<div>
-<h3 class="counter" data-target="500">0</h3>
-<p>ساعت یادگیری</p>
+<div class="stat-card">
+
+<h3 class="counter" data-target="10000">
+0
+</h3>
+
+<p>
+Lines of Code
+</p>
+
 </div>
 
-<div>
-<h3 class="counter" data-target="10000">0</h3>
-<p>خط کد</p>
+<div class="stat-card">
+
+<h3 class="counter" data-target="500">
+0
+</h3>
+
+<p>
+Learning Hours
+</p>
+
+</div>
+
+</div>
+
 </div>
 
 </section>
 
 <section id="contact">
 
-<h2>ارتباط</h2>
+<div class="container">
 
-<p>Email: your@email.com</p>
+<h2 class="section-title">
+Contact
+</h2>
+
+<div class="glass">
+
+<p>
+your@email.com
+</p>
+
+</div>
+
+</div>
 
 </section>
 
 <footer>
 
-© 2026 Arsam
+<p>
+© 2026 ARSAM
+</p>
 
 </footer>
 
