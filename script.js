@@ -12,7 +12,7 @@ loader.style.display = "none";
 
 }, 600);
 
-}, 1200);
+}, 2500);
 
 });
 
