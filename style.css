@@ -96,14 +96,12 @@ transition:.3s;
 
 nav a:hover
 
-.hero{
-height:100vh;
-display:flex;
-justify-content:center;
-align-items:center;
-flex-direction:column;
+.hero p{
+margin-top:20px;
+opacity:.8;
 text-align:center;
-padding:20px;
+width:100%;
+display:block;
 }
 
 .hero h1{
