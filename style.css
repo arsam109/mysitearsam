@@ -381,3 +381,37 @@ z-index:5;
 .hero h1{
 text-align:center;
 }
+.logo{
+font-size:3rem !important;
+font-weight:900;
+letter-spacing:6px;
+
+background:linear-gradient(
+90deg,
+#00d4ff,
+#8f5cff,
+#ff00d4,
+#ffffff
+);
+
+background-size:400% 400%;
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+animation:logoGlow 6s linear infinite;
+
+filter:drop-shadow(0 0 20px rgba(0,212,255,.8));
+}
+
+@keyframes logoGlow{
+
+0%{
+background-position:0% 50%;
+}
+
+100%{
+background-position:100% 50%;
+}
+
+}
