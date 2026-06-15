@@ -165,3 +165,54 @@ if (canvas) {
     });
 
 }
+/* BACK TO TOP */
+
+const backToTop = document.getElementById("backToTop");
+
+window.addEventListener("scroll", () => {
+
+if(window.scrollY > 400){
+
+backToTop.style.display = "block";
+
+}else{
+
+backToTop.style.display = "none";
+
+}
+
+});
+
+backToTop.addEventListener("click", () => {
+
+window.scrollTo({
+top:0,
+behavior:"smooth"
+});
+
+});
+
+/* CURSOR LIGHT */
+
+const cursorLight = document.getElementById("cursor-light");
+
+document.addEventListener("mousemove", e => {
+
+cursorLight.style.left = e.clientX + "px";
+cursorLight.style.top = e.clientY + "px";
+
+});
+
+/* PARALLAX STARS */
+
+document.addEventListener("mousemove", e => {
+
+const x = (e.clientX / window.innerWidth - 0.5) * 20;
+const y = (e.clientY / window.innerHeight - 0.5) * 20;
+
+const stars = document.getElementById("stars");
+
+stars.style.transform =
+`translate(${x}px, ${y}px)`;
+
+});
