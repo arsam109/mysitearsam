@@ -96,34 +96,28 @@ transition:.3s;
 
 nav a:hover
 
-.hero p{
-margin-top:20px;
-opacity:.8;
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
 text-align:center;
-width:100%;
-display:block;
 }
 
 .hero h1{
-font-family:'Orbitron',sans-serif;
-font-size:7rem;
-font-weight:900;
-background:linear-gradient(
-90deg,
-#00d4ff,
-#8f5cff,
-#ff00d4
-);
--webkit-background-clip:text;
--webkit-text-fill-color:transparent;
+width:100%;
+text-align:center;
 }
 
 .hero h2{
-margin-top:20px;
-font-size:2rem;
+width:100%;
+text-align:center;
 }
 
 .hero p{
+width:100%;
+text-align:center;
 margin-top:20px;
 opacity:.8;
 }
