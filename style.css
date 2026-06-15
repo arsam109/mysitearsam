@@ -100,3 +100,25 @@ opacity:0;
 }
 
 }
+.loader-logo{
+animation: logoWarp 2.5s ease forwards;
+}
+
+@keyframes logoWarp{
+
+0%{
+transform:scale(1);
+opacity:1;
+}
+
+60%{
+transform:scale(2);
+opacity:1;
+}
+
+100%{
+transform:scale(15);
+opacity:0;
+}
+
+}
