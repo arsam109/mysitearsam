@@ -373,3 +373,11 @@ background-position:100% 50%;
 }
 
 }
+.hero{
+position:relative;
+z-index:5;
+}
+
+.hero h1{
+text-align:center;
+}
