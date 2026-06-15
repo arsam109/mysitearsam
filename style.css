@@ -199,3 +199,157 @@ padding:40px;
 text-align:center;
 opacity:.7;
 }
+/* ===== FONT ===== */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+
+body{
+font-family:'Orbitron',sans-serif;
+background:#050816;
+color:white;
+overflow-x:hidden;
+}
+
+/* ===== LOGO ===== */
+
+.logo{
+font-size:2rem;
+font-weight:900;
+letter-spacing:3px;
+
+background:linear-gradient(
+90deg,
+#00d4ff,
+#8f5cff,
+#ff00d4
+);
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+text-shadow:
+0 0 10px rgba(0,212,255,.6),
+0 0 20px rgba(143,92,255,.5);
+}
+
+/* ===== HERO ===== */
+
+.hero{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+font-size:clamp(4rem,10vw,8rem);
+font-weight:900;
+letter-spacing:8px;
+
+background:linear-gradient(
+90deg,
+#00d4ff,
+#8f5cff,
+#ffffff
+);
+
+background-size:300% 300%;
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+animation:glowText 6s linear infinite;
+
+margin-bottom:15px;
+}
+
+.hero h2{
+font-size:clamp(1.5rem,3vw,2.5rem);
+color:#00d4ff;
+margin-bottom:20px;
+
+text-shadow:
+0 0 15px rgba(0,212,255,.8);
+}
+
+.hero p{
+font-size:1.2rem;
+max-width:700px;
+opacity:.9;
+margin-bottom:30px;
+}
+
+/* ===== BUTTON ===== */
+
+.btn{
+padding:15px 35px;
+border-radius:40px;
+text-decoration:none;
+font-weight:700;
+color:white;
+
+background:linear-gradient(
+90deg,
+#00d4ff,
+#8f5cff
+);
+
+box-shadow:
+0 0 20px rgba(0,212,255,.4);
+
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-5px) scale(1.05);
+
+box-shadow:
+0 0 30px rgba(0,212,255,.8);
+}
+
+/* ===== CARDS ===== */
+
+.project-card,
+.skill-card{
+
+background:rgba(255,255,255,.05);
+
+backdrop-filter:blur(20px);
+
+border:1px solid rgba(255,255,255,.1);
+
+border-radius:20px;
+
+padding:25px;
+
+transition:.4s;
+}
+
+.project-card:hover,
+.skill-card:hover{
+
+transform:
+translateY(-10px)
+scale(1.03);
+
+box-shadow:
+0 0 25px rgba(0,212,255,.25);
+
+}
+
+/* ===== TEXT ANIMATION ===== */
+
+@keyframes glowText{
+
+0%{
+background-position:0% 50%;
+}
+
+100%{
+background-position:100% 50%;
+}
+
+}
